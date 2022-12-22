@@ -11,6 +11,7 @@
     --white-color: #ffffff;
     --purple-color: #5B38E3;
     --golden-color: #F7D046;
+    --hover-color: #3c2792;
 
     --ff-inter: 'Inter', sans-serif;
     --ff-darker: 'Darker Grotesque', sans-serif;
@@ -47,8 +48,21 @@ button {
 
     border: none;
     background: var(--purple-color);
-    padding: 1.0rem 1.6rem;
     border-radius: 5.0rem;
+}
+
+header .btnDownloadCv {
+    padding: .8rem 1.4rem;
+}
+
+button a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--hover-color)
 }
 
 .heading {
@@ -59,10 +73,14 @@ button {
 }
 
 .heading p{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.8rem;
     line-height: 2.8rem;
     margin-bottom: 1.6rem;
+}
+
+.heading span{
+    color: var(--purple-color);
 }
 
 .heading h1{
@@ -77,6 +95,10 @@ button {
 .heading img {
     align-items: center;
     margin-top: 7.0rem;
+}
+
+.heading .btnContactMe{
+    padding: 1.6rem 2.4rem;
 }
 
 main .projects, main .projects .card {
@@ -122,5 +144,12 @@ main .projects .card p{
     font-weight: 400;
     line-height: 2.0rem;
     justify-content: center;
-    margin-bottom: 4.8rem;
+}
+
+.projects .gitButton {
+    margin: 1.4rem 0 1.4rem 0;
+    padding: .6rem 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
 }
