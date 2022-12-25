@@ -135,6 +135,10 @@ main .projects img {
     
 }
 
+main .projects img:hover {
+    transform: scale(1.1)
+}
+
 main .projects .card h2{
     margin: 1.6rem 0 0.8rem 0;
     font-weight: 600;
