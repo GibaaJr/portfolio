@@ -132,11 +132,13 @@ main .projects img {
     height: 35.0rem;
     object-fit: cover;
     border-radius: 2rem;
+
+    transition: all 800ms;
     
 }
 
 main .projects img:hover {
-    transform: scale(1.1)
+    transform: scale(1.05)
 }
 
 main .projects .card h2{
